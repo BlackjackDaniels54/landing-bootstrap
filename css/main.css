@@ -1,0 +1,295 @@
+body {
+    background-color: rgba(158, 158, 158, 0.15);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff
+}
+.btn-outline-dark {
+    color: #fff;
+    border-color: #fff;
+}
+.btn-outline-dark:hover{
+    background-color: rgba(129, 129, 129, 0.616);
+    border-color: #fff;
+    color: rgb(255, 233, 106);
+}
+button, input, optgroup, select, textarea {
+    margin: 0 0 0 10px;
+    
+}
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.pexels.com/photos/3879060/pexels-photo-3879060.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)fixed top center;
+    background-size: cover;
+    position: relative;
+    
+}
+#hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0; top: 0; right: 0; left: 0;
+}
+#hero .container {
+    position: relative;
+    padding-top: 75px;
+}
+#hero h1{
+    margin: 0;
+    font-size: 56px;
+    font-weight:700;
+    line-height: 64px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+#hero h2{
+    color: #fff;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+#hero .icon-box h3 {
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 26px;
+}
+#hero .icon-box h3 a {
+    color: #fff;
+    text-decoration:none ;
+
+}
+#hero .icon-box h3 a:hover {
+    color: #ffc451;
+}
+.icon-box {
+    padding: 30px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+    text-align: center;
+}
+.icon-box:hover {
+    border-color: #ffc451 ;
+    cursor: pointer;
+}
+.about li {
+    list-style-type: none;
+}
+.cta {
+    background: linear-gradient(rgba(2,2,2,0.5),rgba(2,2,2,0.8)),url(https://www.wallpaperflare.com/static/323/372/925/lamborghini-car-vehicle-black-cars-wallpaper.jpg) fixed top center;
+    padding: 80px 0;
+    color: #fff;
+}
+.cta h3{
+    font-weight: 700;
+    font-style: 28px;
+}
+.cta-btn {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border:2px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.cta-btn:hover {
+    background: #ffc451;
+    border-color: #ffc451;
+    color: #151515;
+}
+.carousel {
+    left: 25%;
+    margin-top: -20px;
+}
+.size {
+    width: 50%; display: inline-block;
+}
+.team {
+    padding: 60px;
+}
+.team .member {
+   margin-bottom: 20px;
+   overflow: hidden;
+   border-radius: 10px;
+   box-shadow: 0px 2px 15px rgba(0,0,0,0.3); 
+}
+
+.team .member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+.team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+}
+.team .member .social a {
+    transition:  0.5s;
+    color: #151515;
+    margin: 0 3px;
+    padding-top: 5px;
+    border-radius: 4px;
+    width: 36px;
+    height: 36px;
+    background-color: rgba(255,255,255,0.8);
+    display: inline-block;
+
+}
+.team .member .social a:hover { background-color: #ffc451;}
+.team .member .member-info {
+    padding: 25px 15px;
+}
+.team .member .member-info h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.team .member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+.team .member .member-info p {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 26px;
+    color: #777777;
+}
+.team .member:hover .social {
+    opacity: 1;
+    bottom: 110px;
+}
+/* .services {
+    background-color: rgba(158, 158, 158, 0.1);
+} */
+.services .icon-box {
+    border: 1px solid #e6e6e6;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.services .icon-box .icon{
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #ffc451;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+/* .services .icon-box .icon:hover{
+    background: #000;
+    color: #fff;
+} */
+.services .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.services .icon-box:hover {
+    border-color:#fff;
+    box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.contacts .info .info-icons{
+    background: #ffc451;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;   
+}
+.contacts .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.contacts .info p {
+    padding: 0 0 0 60px;
+    font-size: 14px;
+}
+.footer-top .social-links a, .footer-links a {
+    text-decoration: none;
+}
+.footer-top {
+    background: #151515;
+    color: #fff;
+    border-bottom: 1px solid #222222;
+    padding: 60px 0 30px 0;
+}
+.footer-top .footer-info h3 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    padding: 2px 0;
+    line-height: 1px ;
+    font-weight: 700;
+    text-transform: uppercase; 
+}
+.footer-top .footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.footer-top .social-links a {
+    width: 36px;
+    height: 31px;
+    background: #292929;
+    display: inline-block;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+}
+.footer-top .social-links a:hover {
+    background: #ffc451;
+}
+.footer-top h4 {
+    font-size:  16px;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+.footer-links {
+    margin-bottom: 30px;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-links li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.footer-links a {
+    color: #fff;
+    margin-left: 3px;
+}
+.footer-links a:hover {
+    color: #ffc451;
+}
+.footer-newsletter form {
+    margin-top: 30px;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
